@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center_horizontal"
+    android:digits="0,1,2,3,4,5,6,7,8,9,."
+    android:id="@+id/amount_edit_id"
+    android:hint="Enter amount"/>
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/remark_auto_text_view_id"
+        android:hint="Remark"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/date_edit_id"
+        android:hint="Date"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_height="48dp">
+        <Button
+            android:layout_width="wrap_content"
+         android:layout_weight="1"
+            android:id="@+id/expansive_button_id"
+            android:text="+Expensive"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="wrap_content"
+             android:layout_weight="1"
+            android:text="+Income"
+            android:id="@+id/income_button_id"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

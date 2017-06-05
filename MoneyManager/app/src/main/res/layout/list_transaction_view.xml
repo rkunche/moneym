@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="8dp"
+    android:layout_height="78dp">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="62dp"
+      android:text="date"
+      android:id="@+id/date"
+      android:gravity="left|center_vertical"
+      android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:text="category"
+        android:gravity="left|center_vertical"
+        android:id="@+id/category"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:text="amount"
+        android:id="@+id/amount"
+        android:gravity="right|center_vertical"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
